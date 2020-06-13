@@ -24,6 +24,7 @@
     "@ionic-native/status-bar": "4.20.0",
     "@ionic/storage": "2.2.0",
     "braces": "^3.0.2",
+    "cordova-plugin-advanced-http": "2.5.1",
     "ionic-angular": "3.9.9",
     "ionicons": "3.0.0",
     "mem": "^6.1.0",
@@ -35,5 +36,10 @@
     "@ionic/app-scripts": "3.2.4",
     "typescript": "2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-advanced-http": {}
+    }
+  }
 }
