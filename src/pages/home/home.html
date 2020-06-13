@@ -1,14 +1,16 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      data
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+  <button ion-button (click)="getdataStandard()"  full> getdataStandard </button>
+  <button ion-button (click)="getdatanative()"  full> getdatanative </button>
+  <button ion-button (click)="getdataevrywhere()"  full> getdataevrywhere </button>
+  <pre>
+    {{ data }}
+  </pre>
 </ion-content>
